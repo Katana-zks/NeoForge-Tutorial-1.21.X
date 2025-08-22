@@ -20,14 +20,14 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(WilderBiomesMod.MOD_ID)
 public class WilderBiomesMod {
-    public static final String MOD_ID = "wilder_biomes";
+    public static final String MOD_ID = "wilderbiomesmod";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public WilderBiomesMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
-        ;
+
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
